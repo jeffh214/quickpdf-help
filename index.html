@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QuickPDF Help</title>
+  <meta name="description" content="Help and FAQ for QuickPDF. Merge, split, compress, and photos, offline on your phone.">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #1c1b16;
+      --muted: #4e4a40;
+      --paper: #f6f3ec;
+      --card: #e3ddd1;
+      --line: #7e7a6e;
+      --amber: #8a5a00;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+      background: var(--paper);
+      color: var(--ink);
+      line-height: 1.5;
+    }
+    header, main, footer { max-width: 40rem; margin: 0 auto; padding: 1.25rem 1rem; }
+    header { padding-bottom: 0; }
+    h1 { font-size: 2rem; line-height: 1.15; margin: 0 0 0.4rem; }
+    .lede { color: var(--muted); margin: 0; }
+    nav {
+      display: flex;
+      gap: 0.5rem;
+      overflow-x: auto;
+      padding: 1rem 0 0.25rem;
+      -webkit-overflow-scrolling: touch;
+    }
+    nav a {
+      flex: 0 0 auto;
+      color: var(--amber);
+      text-decoration: none;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 0.35rem 0.75rem;
+      font-family: "Segoe UI", Roboto, sans-serif;
+      font-size: 0.85rem;
+    }
+    details {
+      background: var(--card);
+      border-radius: 16px;
+      margin: 0.75rem 0;
+      padding: 0.2rem 1rem 0.2rem;
+    }
+    summary {
+      cursor: pointer;
+      font-weight: 650;
+      font-family: "Segoe UI", Roboto, sans-serif;
+      padding: 0.85rem 0;
+    }
+    summary:focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; }
+    details p { margin: 0 0 0.85rem; }
+    .faq { margin: 0.4rem 0 0.8rem; }
+    .faq summary { font-weight: 600; padding: 0.45rem 0; }
+    table { width: 100%; border-collapse: collapse; margin: 0 0 1rem; font-size: 0.95rem; }
+    th, td { text-align: left; vertical-align: top; padding: 0.4rem 0.35rem; border-bottom: 1px solid rgba(126, 122, 110, 0.45); }
+    th { color: var(--amber); font-family: "Segoe UI", Roboto, sans-serif; font-weight: 650; }
+    footer { color: var(--muted); font-size: 0.95rem; }
+    a { color: var(--amber); }
+    .promo {
+      background: var(--card);
+      border-radius: 16px;
+      padding: 1rem;
+      margin-top: 0.5rem;
+    }
+    .promo strong { font-family: "Segoe UI", Roboto, sans-serif; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>QuickPDF Help</h1>
+    <p class="lede">Merge, split, compress, and photos. On your phone. No account.</p>
+    <nav aria-label="Sections">
+      <a href="#getting-started">Getting started</a>
+      <a href="#merge">Merge</a>
+      <a href="#split">Split</a>
+      <a href="#compress">Compress</a>
+      <a href="#images">Images to PDF</a>
+      <a href="#photo-tools">Pro image tools</a>
+      <a href="#save-share">Save and share</a>
+      <a href="#free-pro">Free vs Pro</a>
+      <a href="#purchases">Purchases</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#troubleshooting">Troubleshooting</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <details id="getting-started" open>
+      <summary>Getting started</summary>
+      <p>QuickPDF merges, splits, and compresses PDFs, and turns photos into a PDF. The work happens on this phone. There is no account and no sign-in.</p>
+      <p>Tap a tool on the home screen. The chip says Free · Upgrade until you buy Pro, then it says Pro. The theme button switches Dark, Light, or Match system.</p>
+      <p>The same guide is saved in the app. Open it from the ? on the home screen, or from Help &amp; FAQ in the theme menu. It works with no connection.</p>
+    </details>
+
+    <details id="merge">
+      <summary>Merge PDFs</summary>
+      <p>Open Merge, then Add PDFs. You need at least two files. On the free version you can merge 2 PDFs. Pro has no file limit.</p>
+      <p>The list order is the page order in the finished file. Use the up and down buttons to move a PDF, or the remove button to drop one.</p>
+      <p>Tap Merge. The new file is named from the first PDF, so notes.pdf becomes notes_merged.pdf. The card shows the total pages and the size.</p>
+    </details>
+
+    <details id="split">
+      <summary>Split PDFs</summary>
+      <p>Open Split and choose one PDF. Free can take up to 5 pages. Pro has no page cap.</p>
+      <p>Page range: type the pages you want. Pages start at 1. Example: 1-3, 5, 8-10. Then tap Create PDF. The file is named like report_pages.pdf.</p>
+      <p>Pick pages: tap the page numbers. One file per page is on by default, and the button says Extract pages. Several pages are saved as a zip of single-page PDFs, named like report_pages.zip. Turn the switch off to keep the pages you tapped in one PDF, in the order you tapped them.</p>
+      <p>A PDF with more than 150 pages asks you to use Page range instead of the page chips.</p>
+    </details>
+
+    <details id="compress">
+      <summary>Compress</summary>
+      <p>Open Compress and pick a level, then choose a PDF and tap Compress.</p>
+      <p>Low keeps more detail and usually saves less space. Medium is the balance, and it is selected when you open the screen. High makes the smallest file, and the pages look softer.</p>
+      <p>Compress redraws each page as a picture. Text in the new file cannot be selected or copied. A PDF that is already small can get bigger, and the screen says so when that happens. A long or photo-heavy file can take a while. You can cancel.</p>
+      <p>Free includes 1 compress. That copy adds a footer: Made with QuickPDF Free. Pro has no limit and no footer. The file is named like report_compressed.pdf, and you see the size before and after.</p>
+    </details>
+
+    <details id="images">
+      <summary>Images to PDF</summary>
+      <p>Open Images to PDF. Pick a page size: A4 (210 × 297 mm), Letter (8.5 × 11 in), or Fit, where the page follows the photo.</p>
+      <p>Tap Add images and pick JPEG, PNG, or WebP photos. One photo is one page. Reorder the list to set the page order.</p>
+      <p>Free includes 5 images. A sixth photo asks you to upgrade, and only the first five are kept. Pro has no image limit. Tap Create PDF. The file is named QuickPDF_images.pdf.</p>
+    </details>
+
+    <details id="photo-tools">
+      <summary>Pro image tools</summary>
+      <p>To JPG, Resize photos, and Remove location sit under Image tools. They are Pro only. You can open a card on the free version, but the button says Unlock Pro and does not write a file.</p>
+      <p>Your original photo is left alone. One photo comes back as one file. Several photos come back as a zip: QuickPDF_jpg.zip, QuickPDF_resized.zip, or QuickPDF_clean.zip.</p>
+      <p>To JPG turns HEIC and PNG into JPEG. Quality is 85, 90, or 95. 90 is the default. The photo stays upright, including HEIC. A transparent PNG is filled with white. The JPEG does not include the photo's location. A very large HEIC may be saved smaller so the phone does not run out of memory. holiday.heic becomes holiday.jpg. If this phone cannot decode HEIC, the app says so and does not write a file. HEIC needs Android 9 or later.</p>
+      <p>Resize photos scales the long side down to 1920, 1280, or 800. 1920 is selected when you open the screen. Enlarge smaller photos is off unless you turn it on, so a photo that is already smaller stays the same size. Copies are JPEG without location data, named like holiday_1920.jpg.</p>
+      <p>Remove location saves a copy without GPS and other sensitive photo data. JPEG and PNG keep their type, named like holiday_clean.jpg or scan_clean.png. A HEIC photo becomes a JPEG, named holiday_clean.jpg. The original stays as it is.</p>
+    </details>
+
+    <details id="save-share">
+      <summary>Where files are saved and how to share them</summary>
+      <p>When a file is ready, it is still inside QuickPDF. It is not in Downloads until you save it.</p>
+      <p>Save to a folder asks you where to put it. Save to Downloads puts it in the Downloads folder. If that name is already there, the new file is saved as name (1).pdf, name (2).pdf, and so on. The message names the file that was actually saved.</p>
+      <p>Share opens the Android share sheet with the real filename, for a PDF, a JPEG, or a zip such as QuickPDF_jpg.zip. Start over clears the files you picked so you can begin again.</p>
+    </details>
+
+    <details id="free-pro">
+      <summary>Free vs Pro</summary>
+      <p>Pro is a one-time unlock. It is not a subscription. The price is whatever Google Play shows, typically $4.99, for the product quickpdf_pro.</p>
+      <table>
+        <thead>
+          <tr><th>Feature</th><th>Free</th><th>Pro</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Merge</td><td>2 PDFs</td><td>No file limit</td></tr>
+          <tr><td>Split</td><td>5 pages</td><td>No page cap</td></tr>
+          <tr><td>Compress</td><td>1 time, with footer</td><td>Unlimited, no footer</td></tr>
+          <tr><td>Images to PDF</td><td>5 images</td><td>No image limit</td></tr>
+          <tr><td>To JPG, Resize, Remove location</td><td>Locked</td><td>Included</td></tr>
+        </tbody>
+      </table>
+    </details>
+
+    <details id="purchases">
+      <summary>Purchases</summary>
+      <p>Tap Free · Upgrade on the home screen, then Unlock Pro. Google Play handles the payment. QuickPDF does not see your card.</p>
+      <p>The purchase is a one-time unlock for this Google account. It does not renew and it is not a subscription.</p>
+      <p>Bought Pro already? Open QuickPDF Pro and tap Restore purchase. Use the same Google account that paid. A purchase that is still pending unlocks when Google Play completes it.</p>
+    </details>
+
+    <details id="privacy">
+      <summary>Privacy</summary>
+      <p>QuickPDF is offline. PDFs and photos are read and written on this phone. Nothing is uploaded. There are no ads and no analytics.</p>
+      <p>The developer does not receive your files, your name, or your location. Photo tools that drop location write a new file on the phone. They do not send that data anywhere.</p>
+      <p>The only purchase check is with Google Play, for the product quickpdf_pro. The app does not ask for location, contacts, camera, or microphone access.</p>
+    </details>
+
+    <details id="troubleshooting">
+      <summary>Troubleshooting</summary>
+      <details class="faq">
+        <summary>Password-protected PDFs</summary>
+        <p>QuickPDF can't open a PDF that asks for a password. Remove the password in another app, then try again. The app will say this PDF is password-protected.</p>
+      </details>
+      <details class="faq">
+        <summary>Large files and slow compress</summary>
+        <p>Compress redraws every page, so a long PDF or one full of photos can take a while. Leave the screen open, or tap Cancel. High makes a smaller file and can look softer. A PDF that is already small may not shrink, and it can grow. The result card tells you when that happens.</p>
+      </details>
+      <details class="faq">
+        <summary>Can't find the output</summary>
+        <p>The finished file stays in QuickPDF until you save it. Tap Save to Downloads, or Save to a folder and pick a place. The message names the file that was written. If the name was taken, look for the same name with (1) or (2) added.</p>
+      </details>
+      <details class="faq">
+        <summary>Purchase not restored</summary>
+        <p>Open QuickPDF Pro and tap Restore purchase while signed into the Google account that bought it. The phone has to reach Google Play for that check. A pending purchase does not unlock until Play finishes it. Pro does not expire, because it is not a subscription.</p>
+      </details>
+      <details class="faq">
+        <summary>Share filenames</summary>
+        <p>Share should show the real name, such as notes_merged.pdf, holiday.jpg, or QuickPDF_jpg.zip. Zips are shared as zip files, not as pictures. On some phones an image preview still titles itself Sharing image. The file you send is still the named JPEG.</p>
+      </details>
+    </details>
+
+    <details id="contact" open>
+      <summary>Contact</summary>
+      <p>Questions and problems: <a href="mailto:jefflearning12@gmail.com">jefflearning12@gmail.com</a></p>
+      <p class="promo"><strong>QuickScan.</strong> Also from this developer: QuickScan scans documents on your phone. <a href="https://play.google.com/store/apps/details?id=com.jeffhall.quickscan">View on Google Play</a>.</p>
+    </details>
+  </main>
+  <footer>
+    <p>QuickPDF. Files stay on the phone.</p>
+  </footer>
+</body>
+</html>
